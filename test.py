@@ -9,7 +9,7 @@ import sys
 
 for filename in os.listdir("."):
     if filename.endswith(".md"):
-        with open(filename, 'r') as f:
+        with open(filename, 'r', encoding="utf-8") as f:
             recipe = f.read().lower()
             if not 'taco' in recipe:
                 print("file {0} contains no string 'taco'".format(filename), file=sys.stderr)
