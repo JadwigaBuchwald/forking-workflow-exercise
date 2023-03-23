@@ -2,4 +2,4 @@
 * And caramalized onion
 * Fried beef
 * Garlic and black pepper
-* Spice it !
+* Spice the taco up!
